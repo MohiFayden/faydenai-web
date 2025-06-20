@@ -142,6 +142,7 @@ body {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 2rem;
+    min-height: 8.4rem;
 }
 
 .gradient-text {
@@ -152,11 +153,19 @@ body {
     animation: gradientShift 3s ease-in-out infinite;
 }
 
+.typing-container {
+    display: inline-block;
+    min-height: 2.4em;
+    min-width: 300px;
+    vertical-align: top;
+}
+
 .typing-text {
     color: #00f5ff;
     font-family: 'JetBrains Mono', monospace;
     border-right: 2px solid #00f5ff;
     animation: blink 1s infinite;
+    line-height: 1.2em;
 }
 
 .hero-description {
@@ -369,6 +378,16 @@ body {
     
     .hero-title {
         font-size: 2.5rem;
+        min-height: 6rem;
+    }
+    
+    .typing-container {
+        min-height: 2.2em;
+        min-width: 250px;
+    }
+    
+    .typing-text {
+        font-size: 0.9em;
     }
     
     .tech-stats {
@@ -395,6 +414,16 @@ body {
 @media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
+        min-height: 4.8rem;
+    }
+    
+    .typing-container {
+        min-height: 2em;
+        min-width: 200px;
+    }
+    
+    .typing-text {
+        font-size: 0.8em;
     }
     
     .hero-description p {

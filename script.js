@@ -161,11 +161,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize typing animation
     const typingElement = document.getElementById('typing-text');
     const aiWords = [
-        'with Artificial Intelligence',
-        'through Machine Learning',
-        'via Neural Networks',
-        'using Deep Learning',
-        'powered by AI Innovation'
+        'With AI Innovation',
+        'Through Deep Learning',
+        'Via Neural Networks',
+        'Using Smart Technology',
+        'Through Machine Learning'
     ];
     
     if (typingElement) {
